@@ -36,14 +36,16 @@ class MainActivity : AppCompatActivity() {
 
 
         var button2 = findViewById(R.id.btnNext) as Button
-        setContentView(R.layout.activity_main)
-        button2.setOnClickListener {
-            val text = "Привет!"
-            val duration = Toast.LENGTH_SHORT
 
-            val toast = Toast.makeText(applicationContext, text, duration)
-            toast.setGravity(Gravity.CENTER, 0, 0)
-        }
+        button2.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(view: View): Unit {
+                val text = "Hello toast!"
+                val duration = Toast.LENGTH_SHORT
+
+                val toast = Toast.makeText(applicationContext, text, duration)
+                toast.show()
+                toast.setGravity(Gravity.CENTER, 0, 0)
+            }})
 
     /*var button2 = findViewById(R.id.btnNext) as Button
       button2.setOnClickListener(object : View.OnClickListener {
