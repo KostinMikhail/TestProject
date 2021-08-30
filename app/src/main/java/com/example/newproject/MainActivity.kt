@@ -1,6 +1,8 @@
 package com.example.newproject
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.util.Log
 import android.view.Gravity
 import android.view.Menu
@@ -10,7 +12,6 @@ import android.widget.Button
 import android.widget.Toast
 import android.widget.Toast.makeText
 import androidx.appcompat.app.AppCompatActivity
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,29 +36,31 @@ class MainActivity : AppCompatActivity() {
         })
 
 
-        var button2 = findViewById(R.id.btnNext) as Button
+        var button2 = findViewById(R.id.btnToast) as Button
 
         button2.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View): Unit {
-                val text = "Hello toast!"
+                val text = "здорова!"
                 val duration = Toast.LENGTH_SHORT
 
                 val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
                 toast.setGravity(Gravity.CENTER, 0, 0)
-            }})
+            }
+        })
 
-    /*var button2 = findViewById(R.id.btnNext) as Button
-      button2.setOnClickListener(object : View.OnClickListener {
-          fun toastMe(view: View) {
-              val myToast = Toast.makeText(this@MainActivity, "привет!", Toast.LENGTH_SHORT)
-              myToast.show()
+        var button3 = findViewById(R.id.btnNext) as Button
+
+        button3.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(view: View): Unit {
+
+                val intent = Intent(this@MainActivity, MainActivity2 ::class.java)
+                startActivity(intent)
+            }
+        })
 
 
-          }
-
-  }) */
-}
+    }
 }
 
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewProject">
         <activity
-            android:name=".MainActivity2"
+            android:name="MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.NewProject.NoActionBar"></activity>
         <activity
