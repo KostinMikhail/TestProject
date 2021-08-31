@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             // метод Onclick вызовится при нажатии объекта button
 
             override fun onClick(view: View): Unit {
-                //метод позволяет написать в логи
+                //метод позволяет написать в лог
                 Log.i("TEST", "Это мое сообщение для записи в журнале");
 
             }
