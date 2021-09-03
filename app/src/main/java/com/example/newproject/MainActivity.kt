@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
                 val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
-                toast.setGravity(Gravity.CENTER, 0, 0)
+
             }})
 
 
