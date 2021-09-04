@@ -36,29 +36,18 @@ class MainActivity : AppCompatActivity() {
         })
 
 
-    /*    var button2 = findViewById(R.id.btnToast) as Button
+           var button2 = findViewById(R.id.btnToast) as Button
 
         button2.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View): Unit {
-                val text = "Hello!"
-                val duration = Toast.LENGTH_SHORT
 
-                val toast = Toast.makeText(applicationContext, text, duration)
-                toast.show()
-                           }
-        }) */
-
-        var button2 = findViewById(R.id.btnToast) as Button
-
-        button2.setOnClickListener(object : View.OnClickListener {
-            override fun onClick(view: View): Unit {
                 val text = "Hello toast!"
                 val duration = Toast.LENGTH_SHORT
-
                 val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
 
-            }})
+            }
+        })
 
 
 
