@@ -16,7 +16,7 @@ class MainActivity2 : AppCompatActivity() {
         button4.setOnClickListener(object : View.OnClickListener{
             override fun onClick(view: View): Unit {
 
-                val intent = Intent(this@MainActivity2, MainActivity3 ::class.java)
+                val intent = Intent(this@MainActivity2, MemeActivity ::class.java)
                 startActivity(intent)
             }
         })
