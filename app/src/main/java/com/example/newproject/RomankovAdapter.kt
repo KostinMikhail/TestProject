@@ -11,7 +11,7 @@ import java.util.*
 
 class RomankovAdapter(var context: Context, val memeList: ArrayList<Meme>) : BaseAdapter() {
 
-//    private val inflater: LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+
 
     private class ViewHolder(row: View?) {
         var txtName: TextView
@@ -41,7 +41,7 @@ class RomankovAdapter(var context: Context, val memeList: ArrayList<Meme>) : Bas
         var viewHolder: ViewHolder
         if (convertView == null) {
             var layout = LayoutInflater.from(context)
-            view = layout.inflate(R.layout.meme_item_list, parent, false)
+            view = layout.inflate(R.layout.activity_main3, parent, false)
             viewHolder = ViewHolder(view)
             view.tag = viewHolder
         } else {

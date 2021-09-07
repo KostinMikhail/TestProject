@@ -10,7 +10,7 @@ class MemeActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.meme_item_list)
 
         var listView = findViewById(R.id.ListView) as ListView
         var arrMeme: ArrayList<Meme> = ArrayList()

@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewProject">
         <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MemeActivity"></activity>
         <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
