@@ -13,18 +13,6 @@ class MainActivity3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(com.example.newproject.R.layout.activity_main3)
 
-        val listView: ListView = findViewById(com.example.newproject.R.id.ListView)
-        val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-        val adapter: ArrayAdapter<Any?> = ArrayAdapter<Any?>(this, R.layout.simple_list_item_1, numbers)
-
-        listView.adapter = adapter
-
-
-
-
-
-
-
 
 
     }
