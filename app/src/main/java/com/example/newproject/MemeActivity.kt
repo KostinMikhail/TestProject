@@ -2,7 +2,9 @@ package com.example.newproject
 
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.widget.AdapterView
 import android.widget.ListView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
@@ -22,6 +24,13 @@ class MemeActivity: AppCompatActivity() {
         arrMeme.add(Meme("tom", R.drawable.tom))
 
         listView.adapter = RomankovAdapter(applicationContext, arrMeme)
+
+        listView.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, position, id ->
+            val text = "Hello toast!"
+            val duration = Toast.LENGTH_SHORT
+            val toast = Toast.makeText(applicationContext, text, duration)
+            toast.show()
+        }
 
     }
 }
