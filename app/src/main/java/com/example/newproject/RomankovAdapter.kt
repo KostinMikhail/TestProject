@@ -9,17 +9,20 @@ import android.widget.ImageView
 import android.widget.TextView
 import java.util.*
 
+
 class RomankovAdapter(var context: Context, val memeList: ArrayList<Meme>) : BaseAdapter() {
 
 
 
     private class ViewHolder(row: View?) {
         var txtName: TextView
-        var ivImage: ImageView
+        var ivMemes: ImageView
+        var ivMemes2: ImageView
 
         init {
             this.txtName = row?.findViewById(R.id.txtName) as TextView
-            this.ivImage = row?.findViewById(R.id.ivMemes) as ImageView
+            this.ivMemes = row?.findViewById(R.id.ivMemes) as ImageView
+            this.ivMemes2 = row?.findViewById(R.id.ivMemes2) as ImageView
         }
     }
 
@@ -50,7 +53,8 @@ class RomankovAdapter(var context: Context, val memeList: ArrayList<Meme>) : Bas
         }
         var meme: Meme = getItem(position) as Meme
         viewHolder.txtName.text = meme.name
-        viewHolder.ivImage.setImageResource(meme.image)
+        viewHolder.ivMemes.setImageResource(meme.image)
+        viewHolder.ivMemes2.setImageResource(meme.image)
 
         return view as View
     }
