@@ -41,15 +41,13 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View): Unit {
 
-                val text = "Hello toast!"
+                val text = "это сообщение - тост"
                 val duration = Toast.LENGTH_SHORT
                 val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
 
             }
         })
-
-
 
 
        var button3 = findViewById(R.id.btnNext) as Button
@@ -62,6 +60,16 @@ class MainActivity : AppCompatActivity() {
            }
        })
 
+
+       var button4 = findViewById(R.id.btnChuck) as Button
+
+       button4.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(view: View): Unit {
+
+                val intent = Intent(this@MainActivity, ChuckActivity ::class.java)
+                startActivity(intent)
+            }
+        })
 
    }
 }

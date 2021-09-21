@@ -26,7 +26,7 @@ class MemeActivity: AppCompatActivity() {
         listView.adapter = RomankovAdapter(applicationContext, arrMeme)
 
         listView.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, position, id ->
-            val text = "Hello toast!"
+            val text = "зачем ты нажал на мем?"
             val duration = Toast.LENGTH_SHORT
             val toast = Toast.makeText(applicationContext, text, duration)
             toast.show()

@@ -20,24 +20,32 @@
         >
                 <Button
             android:id="@+id/showMsg"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="text to the log">
+            android:text="текст в лог">
         </Button>
         <Button
             android:id="@+id/btnToast"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Toast">
+            android:text="тост">
 
         </Button>
         <Button
             android:id="@+id/btnNext"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="next"/>
+            android:text="дальше"/>
+        <Button
+            android:id="@+id/btnChuck"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Чак">
+        </Button>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

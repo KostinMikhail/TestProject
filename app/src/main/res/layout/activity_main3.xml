@@ -38,6 +38,6 @@
         android:layout_toEndOf="@+id/ivMemes"
         android:layout_toRightOf="@+id/ivMemes"
         android:text="meme name"
-        android:textColor="#001A57"
+        android:textColor="#FF0000"
         android:textSize="20sp" />
 </RelativeLayout>
