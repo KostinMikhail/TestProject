@@ -62,6 +62,16 @@ class MainActivity : AppCompatActivity() {
            }
        })
 
+        var button4 = findViewById(R.id.btnChuck) as Button
+
+        button4.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(view: View): Unit {
+
+                val intent = Intent(this@MainActivity, ChuckActivity ::class.java)
+                startActivity(intent)
+            }
+        })
+
 
    }
 }

@@ -39,5 +39,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="next"/>
+        <Button
+            android:id="@+id/btnChuck"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Chuck"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

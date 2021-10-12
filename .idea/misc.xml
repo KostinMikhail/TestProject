@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_chuck.xml" value="0.33" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_main.xml" value="0.15896739130434784" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_main3.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/chuck_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/meme_item_list.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
