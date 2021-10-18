@@ -3,13 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable-v24/chims_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable-v24/imageViewChims.xml" value="0.3828125" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable-v24/imageViewChims_foreground.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable-v24/image_view_chims_foreground.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable/chims_background.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable/imageViewChims_background.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable/image_view_chims.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable/image_view_chims_background.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/drawable/image_view_chims_foreground.xml" value="0.2546875" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_chuck.xml" value="0.33" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_main.xml" value="0.15896739130434784" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/activity_main3.xml" value="0.26145833333333335" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/chuck_activity.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/fragment_second.xml" value="0.1" />
-        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/meme_item_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/layout/meme_item_list.xml" value="0.22" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/mipmap-anydpi-v26/chims.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/mipmap-anydpi-v26/chims_round.xml" value="0.2546875" />
+        <entry key="..\:/Users/kmm/AndroidStudioProjects/NewProject/app/src/main/res/mipmap-anydpi-v26/imageViewChims.xml" value="0.2546875" />
       </map>
     </option>
   </component>

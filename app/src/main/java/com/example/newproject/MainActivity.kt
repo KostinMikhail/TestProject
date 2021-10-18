@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View): Unit {
 
-                val text = "Hello toast!"
+                val text = "привет"
                 val duration = Toast.LENGTH_SHORT
                 val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
