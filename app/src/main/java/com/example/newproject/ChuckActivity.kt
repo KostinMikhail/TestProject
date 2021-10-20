@@ -49,17 +49,16 @@ class ChuckActivity : AppCompatActivity() {
             override fun onResponse(call: Call, response: Response) {
                 val json = response.body?.string()
 
-// поменять API, вытащить клоюч иконки, и в имидж вью загрузить иконку  подсказка для гула ->"imageView download image"
-// перенести в основной проект
+
                 val txt = (JSONObject(json).get("value")).toString() //было написано   val txt = (JSONObject(json).getJSONObject("value").get("value")).toString() почему я изменил и заработало?
-                val img = (JSONObject(json).get("icon_url")).toString()
-                Picasso.with(this@ChuckActivity)
-                    .load (img)
-  //                  .into(imageView)
+                val URLimg = (JSONObject(json).get("icon_url")).toString()
+
 
                 runOnUiThread {
                     progressBar.visibility = View.GONE
-
+                    Picasso.with(this@ChuckActivity)
+                        .load (URLimg)
+                        .into(img)
                     factTv.text = txt
                 }
 

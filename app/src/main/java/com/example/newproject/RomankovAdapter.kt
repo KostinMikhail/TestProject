@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import com.squareup.picasso.Picasso
 import java.util.*
 
 
@@ -23,6 +24,7 @@ class RomankovAdapter(var context: Context, val memeList: ArrayList<Meme>) : Bas
             this.txtName = row?.findViewById(R.id.txtName) as TextView
             this.ivMemes = row?.findViewById(R.id.ivMemes) as ImageView
             this.ivMemes2 = row?.findViewById(R.id.ivMemes2) as ImageView
+
         }
     }
 
@@ -55,7 +57,11 @@ class RomankovAdapter(var context: Context, val memeList: ArrayList<Meme>) : Bas
         viewHolder.txtName.text = meme.name
         viewHolder.ivMemes.setImageResource(meme.image)
         viewHolder.ivMemes2.setImageResource(meme.image)
-
+        Picasso.with(this.context)
+            .load(meme.urlImage)
+            .placeholder(R.drawable.placeholder)
+            .error(R.drawable.error)
+            .into(viewHolder.ivMemes)
         return view as View
     }
 
