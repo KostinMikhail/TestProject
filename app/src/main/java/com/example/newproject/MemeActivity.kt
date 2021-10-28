@@ -34,3 +34,4 @@ class MemeActivity: AppCompatActivity() {
 
     }
 }
+//написать новый активити, листвью и адаптер
